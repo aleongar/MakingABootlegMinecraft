@@ -80,7 +80,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/BasicGradleGame-1.0.jar:$APP_HOME/lib/jme3-lwjgl-3.3.0-stable.jar:$APP_HOME/lib/jme3-desktop-3.3.0-stable.jar:$APP_HOME/lib/jme3-core-3.3.0-stable.jar:$APP_HOME/lib/lwjgl-2.9.3.jar:$APP_HOME/lib/lwjgl-platform-2.9.3-natives-windows.jar:$APP_HOME/lib/lwjgl-platform-2.9.3-natives-linux.jar:$APP_HOME/lib/lwjgl-platform-2.9.3-natives-osx.jar:$APP_HOME/lib/jinput-2.0.5.jar:$APP_HOME/lib/jutils-1.0.0.jar:$APP_HOME/lib/jinput-platform-2.0.5-natives-linux.jar:$APP_HOME/lib/jinput-platform-2.0.5-natives-windows.jar:$APP_HOME/lib/jinput-platform-2.0.5-natives-osx.jar
+CLASSPATH=$APP_HOME/lib/BasicGradleGame-1.0.jar:$APP_HOME/lib/jme3-lwjgl-3.3.0-stable.jar:$APP_HOME/lib/jme3-desktop-3.3.0-stable.jar:$APP_HOME/lib/jme3-bullet-3.3.0-stable.jar:$APP_HOME/lib/jme3-terrain-3.3.0-stable.jar:$APP_HOME/lib/jme3-core-3.3.0-stable.jar:$APP_HOME/lib/lwjgl-2.9.3.jar:$APP_HOME/lib/lwjgl-platform-2.9.3-natives-windows.jar:$APP_HOME/lib/lwjgl-platform-2.9.3-natives-linux.jar:$APP_HOME/lib/lwjgl-platform-2.9.3-natives-osx.jar:$APP_HOME/lib/jinput-2.0.5.jar:$APP_HOME/lib/jutils-1.0.0.jar:$APP_HOME/lib/jinput-platform-2.0.5-natives-linux.jar:$APP_HOME/lib/jinput-platform-2.0.5-natives-windows.jar:$APP_HOME/lib/jinput-platform-2.0.5-natives-osx.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

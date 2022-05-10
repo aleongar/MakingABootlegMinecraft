@@ -43,8 +43,6 @@ public class Chunck extends Node{
     }
     
     
-    
-    
     public Block[][][] getBlocks(){
         return blocks;
     }

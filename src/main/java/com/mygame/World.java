@@ -34,6 +34,4 @@ public class World extends Node{
         }
         return tempChuncks;
     }
-    
-    
 }

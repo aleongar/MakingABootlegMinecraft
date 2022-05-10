@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\BasicGradleGame-1.0.jar;%APP_HOME%\lib\jme3-lwjgl-3.3.0-stable.jar;%APP_HOME%\lib\jme3-desktop-3.3.0-stable.jar;%APP_HOME%\lib\jme3-core-3.3.0-stable.jar;%APP_HOME%\lib\lwjgl-2.9.3.jar;%APP_HOME%\lib\lwjgl-platform-2.9.3-natives-windows.jar;%APP_HOME%\lib\lwjgl-platform-2.9.3-natives-linux.jar;%APP_HOME%\lib\lwjgl-platform-2.9.3-natives-osx.jar;%APP_HOME%\lib\jinput-2.0.5.jar;%APP_HOME%\lib\jutils-1.0.0.jar;%APP_HOME%\lib\jinput-platform-2.0.5-natives-linux.jar;%APP_HOME%\lib\jinput-platform-2.0.5-natives-windows.jar;%APP_HOME%\lib\jinput-platform-2.0.5-natives-osx.jar
+set CLASSPATH=%APP_HOME%\lib\BasicGradleGame-1.0.jar;%APP_HOME%\lib\jme3-lwjgl-3.3.0-stable.jar;%APP_HOME%\lib\jme3-desktop-3.3.0-stable.jar;%APP_HOME%\lib\jme3-bullet-3.3.0-stable.jar;%APP_HOME%\lib\jme3-terrain-3.3.0-stable.jar;%APP_HOME%\lib\jme3-core-3.3.0-stable.jar;%APP_HOME%\lib\lwjgl-2.9.3.jar;%APP_HOME%\lib\lwjgl-platform-2.9.3-natives-windows.jar;%APP_HOME%\lib\lwjgl-platform-2.9.3-natives-linux.jar;%APP_HOME%\lib\lwjgl-platform-2.9.3-natives-osx.jar;%APP_HOME%\lib\jinput-2.0.5.jar;%APP_HOME%\lib\jutils-1.0.0.jar;%APP_HOME%\lib\jinput-platform-2.0.5-natives-linux.jar;%APP_HOME%\lib\jinput-platform-2.0.5-natives-windows.jar;%APP_HOME%\lib\jinput-platform-2.0.5-natives-osx.jar
 
 @rem Execute BasicGradleGame
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %BASIC_GRADLE_GAME_OPTS%  -classpath "%CLASSPATH%" com.mygame.Main %CMD_LINE_ARGS%
