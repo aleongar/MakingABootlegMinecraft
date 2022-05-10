@@ -3,6 +3,7 @@ package com.mygame;
 import com.jme3.app.SimpleApplication;
 import com.jme3.renderer.RenderManager;
 
+
 /**
  * This is the Main Class of your Game. You should only do initialization here.
  * Move your Logic into AppStates or Controls
@@ -10,7 +11,9 @@ import com.jme3.renderer.RenderManager;
  */
 public class Main extends SimpleApplication {
     
-
+    World w;
+    Player mainPlayer;
+    
     public static void main(String[] args) {
         Main app = new Main();
         app.start();
@@ -18,8 +21,11 @@ public class Main extends SimpleApplication {
 
     @Override
     public void simpleInitApp() {
-        World c = new World(assetManager);
-        rootNode.attachChild(c);
+        w = new World(assetManager);
+        mainPlayer = new Player(stateManager, flyCam, inputManager, cam);
+        rootNode.addLight(mainPlayer.getDirectionalLight()); 
+        rootNode.addLight(mainPlayer.getAmbientLight());
+        rootNode.attachChild(w);
     }
 
     @Override
